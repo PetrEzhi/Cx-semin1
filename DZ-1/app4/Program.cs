@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Привет, мне нужны три разных числа!");
+Console.Write("Введи первое - ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введи второе - ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введи Третье - ");
+int c = Convert.ToInt32(Console.ReadLine());
+int max = a;
+if (a > b) max = a;
+else max = b;
+if (max < c) max = c;
+Console.WriteLine($"Из них максимальное - {max}");
