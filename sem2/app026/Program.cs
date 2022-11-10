@@ -2,7 +2,7 @@
 {
     string strNum = Math.Abs(number).ToString();
     int length = strNum.Length;
-    return lenght;
+    return length;
 }
 
 Console.Write("Vvedite chislo A : ");
