@@ -8,7 +8,7 @@ for (int i = 0; i < mas.Length; i++)
 //Teper pognali schitat nechetn pozicii
 Console.WriteLine();
 int sum = 0;
-int nech = 0;
+int nech = 1;
 while (nech < mas.Length)
 {
     sum = sum + mas[nech];
